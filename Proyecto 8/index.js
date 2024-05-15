@@ -3,8 +3,12 @@ let formulario = document.getElementById('formulario');
     let fecha = document.getElementById('fecha');
     let descripcion = document.getElementById('descripcion');
 
-
-    let tareas = [];
+    let Tareas=[{nombre: 'Ivan', fecha: '2021-05-03', descripcion: 'Hola Mundo'},
+    {nombre: 'Angel', fecha: '2021-05-03', descripcion: 'Hola Mundo'},
+    {nombre: 'Cesar', fecha: '2021-05-03', descripcion: 'Hola Mundo'}
+        
+    ];
+    
     let listaTareas = document.getElementById("listaTareas");
     let btnGuardar = document.getElementById('btnGuardar');
 
@@ -12,7 +16,7 @@ let formulario = document.getElementById('formulario');
     function mostrarTareas(){
         listaTareas.innerHTML = "Esta es mi lista de tareas";
         tareas.forEach((tarea,indice) => {
-            listaTareas.innerHTML += `
+            listaTareas.innerHTML += 
             <div class='row'>
                 <div class='col-3 border p-3'>
                     <strong>${ tarea.nombre }</strong>
@@ -30,7 +34,7 @@ let formulario = document.getElementById('formulario');
                     <button class='btn btn-danger' onClick="borrarTarea(${indice})">Borrar</button>
                 </div>
             </div>
-            `;
+            ;
         });
     }
 
