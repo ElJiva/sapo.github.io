@@ -8,8 +8,15 @@ body{
     font-family: 'Noto Sans', sans-serif;
     padding: 20px;
     text-align: center;
+    background-color: #f5f5f5;
 }
-
+.card{
+    margin-bottom: 1em;
+    transition: 0.3s ease-in-out;
+}
+.card:hover{
+    scale: 1.05;
+}
 .imagenProducto{
     width: 250px;
     height: 250px;
