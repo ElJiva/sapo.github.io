@@ -1,50 +1,51 @@
 [
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
+        "title": "RICK",
+        "description": "Cientifico mas inteligente del universo",
+        "price": 19999.99,
+        "image": "img_productos/rick.jpg   "
+    }, 
     {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
-    {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
-    {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
-    {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
-    {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://images-na.ssl-images-amazon.com/images/I/51NlGt6v8GL._AC_.jpg"
-    },
-    {
-        "title": "The Shawshank Redemption",
-        "description": "Two imprisoned",
-        "price": 10.99,
-        "image": "https://i.ytimg.com/vi/ijid9-q2MGc/maxresdefault.jpg"
-    },
-    {
-        "title": "Enanos",
-        "description": "Enanos todo terreno",
+        "title": "Morty",
+        "description": "Sobrino que rick se lleva a todas sus aventuras",
         "price": 0.99,
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxr5GPcyEAaTD3rMEYc0TW9c882MTUIaiZNRy7jRl_uA&s"
+        "image": "img_productos/morty.jpg"
+    },
+    {
+        "title": "King Jellybean",
+        "description": "giant anthropomorphic jelly bean",
+        "price": 172.99,
+        "image": "img_productos/KJellybean.jpeg"
+    },
+    {
+        "title": "Mr.Poopy",
+        "description": "He is mostly shown breaking the fourth wall during the show and is the only other character to do this besides Rick",
+        "price": 10831.99,
+        "image": "img_productos/mrpoopy.jpg"
+    },
+    {
+        "title": "Squanchy",
+        "description": " Is a catlike alien from Planet Squanch and one of Rick's closest friends",
+        "price": 5327.99,
+        "image": "img_productos/Squachy.jpeg"
+    },
+    {
+        "title": "Bird Person",
+        "description": "He has two giant bird-like wings on their backs, which resembles a cape when not in use",
+        "price": 86537.99,
+        "image": "img_productos/birdperson.jpeg"
+    },
+
+    {
+        "title": "Mr.Meseeks",
+        "description": "Meeseeks exhibits a friendly, cheerful, and helpful demeanor",
+        "price": 293133466.99,
+        "image": "img_productos/mrmeseeks.jpeg"  
+    },
+    {
+        "title": "Mr.Goldenfold",
+        "description": "Mr. Goldenfold's history besides the fact that he is divorced,",
+        "price": 0.99,
+        "image": "img_productos/goldenfold.jpeg"
     }
 ]

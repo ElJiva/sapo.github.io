@@ -1,8 +1,7 @@
 let listaProductos = document.querySelector('#listaProductos');
 
-        // Obtiene productos desde el archivo JSON local
         function obtieneProductos() {
-            fetch('productos.json') // Ruta a tu archivo JSON local
+            fetch('productos.json')
                 .then(res => res.json())
                 .then(productosObtenidos => {
                     console.log('Productos obtenidos:', productosObtenidos);
