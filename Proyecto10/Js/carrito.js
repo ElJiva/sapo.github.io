@@ -25,20 +25,20 @@ let renderProductosCarrito = () =>{
 
     carrito.forEach( (producto, indice) => {
         productosCarrito.innerHTML += `
-        <div class="row">
-            <div class="col-12 col-md-3 border p-2">
-                   <img src="${producto.image}" class="card-img-top w-50" alt="...">
-            </div>
-            <div class="col-12 col-md-3 border p-2">
-                <h5 class="card-title">${producto.title}</h5>   
-            </div>
-            <div class="col-12 col-md-3 border p-2">
-                <p class="text-danger fw-bold">$${producto.price} USD</p>
-            </div>
-            <div class="col-12 col-md-3 border p-2 text-center">
-                <a href="#" onclick="eliminarCarrito(${indice})" class="btn btn-danger">Eliminar</a>
-            </div>
-        </div>`;
+            <div class="row">
+                <div class="col-12 col-md-3 border p-2">
+                       <img src="${producto.image}" class="card-img-top w-50" alt="...">
+                </div>
+                <div class="col-12 col-md-3 border p-2">
+                    <h5 class="card-title">${producto.title}</h5>   
+                </div>
+                <div class="col-12 col-md-3 border p-2">
+                    <p class="text-danger fw-bold">$${producto.price} USD</p>
+                </div>
+                <div class="col-12 col-md-3 border p-2 text-center">
+                    <a href="#" onclick="eliminarCarrito(${indice})" class="btn btn-danger">Eliminar</a>
+                </div>
+            </div>`;
     });
 };
 

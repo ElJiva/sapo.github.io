@@ -1,18 +1,16 @@
-let listaCategorias = document.querySelector('#listaCategorias');
-let obtieneCategorias = async () =>{
+let listaCategorias = document.querySelector("#listaCategorias");
+let obtieneCategorias = () =>   {
     fetch('https://fakestoreapi.com/products/categories')
         .then(res => res.json())
-        .then(categorias =>{
+        .then(categorias => {
+            //console.log(categorias);
             listaCategorias.innerHTML = "";
-            categorias.forEach((categoria,indice)=>{
-                categoria = categoria.replace("",'');
+            categorias.forEach( (categoria,indice) => {
+                categoria = categoria.replace("'", '');
                 listaCategorias.innerHTML += `
-                <li class = "nav-item">
-                    <a class = "nav-link" aria-current="page"  onclick="muestraproductos('${categoria}');"
-                    href="#">${categoria.toUpperCase()}</a>
-                </li>`;
-                
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" onclick="muestraProductos('${ categoria }');" href="#">${ categoria.toUpperCase() }</a>
+                    </li> `;
             });
-        });
-    
+        })
 };
